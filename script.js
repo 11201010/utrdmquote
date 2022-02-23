@@ -28,7 +28,6 @@ const fetchRandomURL = () => {
 			let nB = getRandom(obj.bPath.length);
 			let nU = getRandom(obj.uPath.length);
 			let nI = getRandom(obj.iPath.length);
-			// console.log(nB + ", " + nU + ", " + nI);
 			bright.href =
 				"https://light-universe-truth.blogspot.com/2019/08/" +
 				obj.bPath[nB] +
@@ -49,10 +48,8 @@ const setToDefaultURL = () => {
 	insight.href = "https://insight-into-the-world-tw.blogspot.com/";
 };
 setToDefaultURL();
-// fetchRandomURL();
 html.onkeydown = function keycode(event) {
 	var x = event.keyCode;
-	// console.log(x)
 	switch (x) {
 		// enter = 13
 		case 13:
