@@ -1,5 +1,5 @@
 const quoteJSON =
-	"https://raw.githubusercontent.com/11201010/quotes/main/universe-truth-quotes.json";
+	"https://raw.githubusercontent.com/11201010/utrdmquote/main/universe-truth-quotes.json";
 const quoteText = document.getElementById("text");
 const quoteSrc = document.getElementById("src");
 const quoteTitle = document.getElementById("title");
@@ -19,7 +19,7 @@ const ut = document.getElementById("ut");
 const insight = document.getElementById("insight");
 const html = document.getElementsByTagName("html")[0];
 const urlPathJSON =
-	"https://raw.githubusercontent.com/11201010/quotes/main/universe-truth-urlPath.json";
+	"https://raw.githubusercontent.com/11201010/utrdmquote/main/universe-truth-urlPath.json";
 const fetchRandomURL = () => {
 	fetch(urlPathJSON)
 		.then((data) => data.json())
