@@ -1,0 +1,28 @@
+* {
+	font-family: "Microsoft YaHei", Helvetica, Arial, Lucida Grande, Tahoma,
+		sans-serif;
+}
+body {
+	background-color: #f1f1f1;
+}
+#quote-box {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	border-radius: 5px;
+	padding: 50px 40px;
+}
+#text::before {
+	content: "\201C";
+}
+#text::after {
+	content: "\201D";
+}
+#cite {
+	color: #858591;
+	width: 50%;
+}
+#cite::before {
+	content: "\2014 \00A0";
+}
